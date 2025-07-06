@@ -1,10 +1,10 @@
 # Dismarkov
 A simple to setup + use Discord selfbot written in Python, that uses a Markov chain using markovify.
 # Requirements
-You will need Python 3.9+.
-You will need to install the packages `discord.py-self` and `markovify`.
-For the Markov chain, you will need a proper working dataset.
-For the Discord selfbot, you will need your Discord user token.
+You will need Python 3.9+.                
+You will need to install the packages `discord.py-self` and `markovify`.                
+For the Markov chain, you will need a proper working dataset.                
+For the Discord selfbot, you will need your Discord user token.            
 # Setting up
 First, git clone the repository.
 `git clone https://github.com/realgreekster/dismarkov.git`
