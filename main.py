@@ -14,7 +14,7 @@ class Dismarkov(discord.Client):
 	    print('logged in as', self.user)
 
 	async def on_message(self, message):
-		response = kevonzai.make_short_sentence(500)
+		response = markov.make_short_sentence(500)
 	
 		if message.content.startswith("<@YOUR_SELFBOT_USERID_HERE>"):
 			author = message.author
